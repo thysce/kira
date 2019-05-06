@@ -1,0 +1,2 @@
+[0313/114450.611:ERROR:file_io.cc(134)] WriteFile: Die Pipe wird gerade geschlossen. (0xE8)
+[0313/121149.980:ERROR:file_io.cc(134)] WriteFile: Die Pipe wird gerade geschlossen. (0xE8)

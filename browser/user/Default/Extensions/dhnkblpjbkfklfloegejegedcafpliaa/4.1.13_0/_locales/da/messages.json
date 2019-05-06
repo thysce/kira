@@ -1,0 +1,410 @@
+{
+   "additionalTitle": {
+      "description": "",
+      "message": "Ekstra"
+   },
+   "addresses": {
+      "description": "",
+      "message": "Adresser"
+   },
+   "addressesNotFound": {
+      "description": "",
+      "message": "Du har ikke tilføjet nogle adresser endnu"
+   },
+   "availableLogins": {
+      "description": "",
+      "message": "Tilgængelige konti"
+   },
+   "bankCardPutInUnsupported": {
+      "description": "",
+      "message": "Kaspersky Password Manager udfylder ikke bankkortoplysninger på dette websted"
+   },
+   "bankCards": {
+      "description": "",
+      "message": "Bankkort"
+   },
+   "bankCardsNotFound": {
+      "description": "",
+      "message": "Du har endnu ikke tilføjet nogle bankkort"
+   },
+   "capsLockOn": {
+      "description": "",
+      "message": "Caps Lock er aktiveret"
+   },
+   "change_password_params": {
+      "description": "",
+      "message": "Parametre for adgangskode"
+   },
+   "clear": {
+      "description": "",
+      "message": "Ryd"
+   },
+   "clearList": {
+      "description": "",
+      "message": "Ryd alle"
+   },
+   "closeFolder": {
+      "description": "",
+      "message": "Luk mappe"
+   },
+   "copyLogin": {
+      "description": "",
+      "message": "Kopier login"
+   },
+   "copyPassword": {
+      "description": "",
+      "message": "Kopier adgangskode"
+   },
+   "copy_password": {
+      "description": "",
+      "message": "Kopiér"
+   },
+   "createButton": {
+      "description": "",
+      "message": "Generer"
+   },
+   "createPassword": {
+      "description": "",
+      "message": "Opret adgangskode"
+   },
+   "createSecurePassword": {
+      "description": "",
+      "message": "Generer en stærk adgangskode"
+   },
+   "do_not_show_anymore": {
+      "description": "",
+      "message": "Vis ikke igen"
+   },
+   "downloadAndInstall": {
+      "description": "",
+      "message": "Download og installer"
+   },
+   "download_for_windows": {
+      "description": "",
+      "message": "Hent"
+   },
+   "emptyComment": {
+      "description": "",
+      "message": "Ingen kommentar"
+   },
+   "emptyResentAccounts": {
+      "description": "",
+      "message": "Websteder, du åbner fra Kaspersky&nbsp;Password&nbsp;Manager vises her"
+   },
+   "enterMasterPassword": {
+      "description": "",
+      "message": "Hovedadgangskode"
+   },
+   "eula": {
+      "description": "",
+      "message": "Licensaftale"
+   },
+   "extension_author": {
+      "description": "obligatorisk streng",
+      "message": "Kaspersky Lab"
+   },
+   "extension_description": {
+      "description": "obligatorisk streng",
+      "message": "Udfylder på en sikker måde automatisk dine logins og adgangskoder, bankkortdetaljer og adresser på websteder, du besøger."
+   },
+   "extension_do_not_work_on_service_pages": {
+      "description": "",
+      "message": "Denne udvidelse er ikke tilgængelig på startsiden og på sider med browserindstillinger."
+   },
+   "extension_do_not_work_on_service_pages__short": {
+      "description": "",
+      "message": "Ikke tilgængelig på nuværende side"
+   },
+   "extension_name": {
+      "description": "obligatorisk streng",
+      "message": "Kaspersky Password Manager"
+   },
+   "extension_name_beta": {
+      "description": "obligatorisk streng. Anvendes som udvidelsesnavn til Beta-udgivelse",
+      "message": "Kaspersky Password Manager Beta"
+   },
+   "extension_name_light": {
+      "description": "",
+      "message": "Kaspersky Password Manager"
+   },
+   "favorites": {
+      "description": "",
+      "message": "Favoritter"
+   },
+   "fillForm": {
+      "description": "",
+      "message": "Udfyld felter"
+   },
+   "fillingAddressesDisabled": {
+      "description": "",
+      "message": "Udfyldning af adresser deaktiveres i programindstillingerne"
+   },
+   "fillingBankCardsDisabled": {
+      "description": "",
+      "message": "Udfyldning af bankkortoplysninger er deaktiveret i programindstillingerne"
+   },
+   "fillingLoginsDisabled": {
+      "description": "",
+      "message": "Udfyldning af brugernavne og adgangskoder deaktiveres i programindstillingerne"
+   },
+   "forgotMasterPassword": {
+      "description": "",
+      "message": "Har du glemt din hovedadgangskode?"
+   },
+   "generatePassword": {
+      "description": "",
+      "message": "Generer"
+   },
+   "generate_password_full": {
+      "description": "",
+      "message": "OPRET"
+   },
+   "generated_password": {
+      "description": "",
+      "message": "Ny adgangskode"
+   },
+   "goToWebsite": {
+      "description": "",
+      "message": "Gå til websted"
+   },
+   "hidePasswordTooltip": {
+      "description": "",
+      "message": "Skjul adgangskode"
+   },
+   "hint_description": {
+      "description": "",
+      "message": "Opret en stærk adgangskode til din konto"
+   },
+   "how_it_works": {
+      "description": "",
+      "message": "Sådan fungerer det"
+   },
+   "illegal_password_config": {
+      "description": "",
+      "message": "Vælg mindst én tegngruppe"
+   },
+   "installRequired": {
+      "description": "",
+      "message": "Installer Kaspersky&nbsp;Password&nbsp;Manager på denne computer"
+   },
+   "install_product_for_autofill": {
+      "description": "",
+      "message": "Installer programmet på din computer så det automatisk gemmer og udfylder adgangskoder."
+   },
+   "learn_more": {
+      "description": "",
+      "message": "Få mere at vide"
+   },
+   "leaveFeedback": {
+      "description": "",
+      "message": "Giv feedback"
+   },
+   "leaveFeedbackRequest": {
+      "description": "",
+      "message": "Vi vil gerne høre din mening."
+   },
+   "legal_notices": {
+      "description": "",
+      "message": "Tredjepartskode"
+   },
+   "light_mode_product_description": {
+      "description": "",
+      "message": "Hurtig og sikker adgang til dine adgangskoder, kort, dokumenter og andre oplysninger fra enhver enhed."
+   },
+   "link_to_account": {
+      "description": "",
+      "message": "Gem adgangskode"
+   },
+   "lockVault": {
+      "description": "",
+      "message": "Lås boksen"
+   },
+   "logInToYourAccount": {
+      "description": "",
+      "message": "Gå til websted"
+   },
+   "lowPasswordStrength": {
+      "description": "",
+      "message": "Lav"
+   },
+   "mediumPasswordStrength": {
+      "description": "",
+      "message": "Middel"
+   },
+   "noAddressForms": {
+      "description": "",
+      "message": "Ingen adresseformularer på denne side"
+   },
+   "noAddressesMessage": {
+      "description": "",
+      "message": "Du har ikke tilføjet nogle adresser endnu"
+   },
+   "noBankCardForms": {
+      "description": "",
+      "message": "Ingen bankkortformularer på denne side"
+   },
+   "noBankCardsMessage": {
+      "description": "",
+      "message": "Du har endnu ikke tilføjet nogle bankkort"
+   },
+   "noLoginForms": {
+      "description": "",
+      "message": "Ingen felter til brugernavn og adgangskode på denne side"
+   },
+   "noLoginsMessage": {
+      "description": "",
+      "message": "Du har endnu ikke føjet nogle konti til dette websted"
+   },
+   "notFoundMessage": {
+      "description": "",
+      "message": "Din søgning gav ingen resultater"
+   },
+   "openButton": {
+      "description": "",
+      "message": "Åbn"
+   },
+   "openFolder": {
+      "description": "",
+      "message": "Åbn mappe"
+   },
+   "openMoreOptions": {
+      "description": "",
+      "message": "Mere..."
+   },
+   "openProduct": {
+      "description": "",
+      "message": "Åbn Kaspersky&nbsp;Password&nbsp;Manager"
+   },
+   "passwordPenaltyReason0": {
+      "description": "",
+      "message": "Ingen enkle tegnkombinationer"
+   },
+   "passwordPenaltyReason1": {
+      "description": "",
+      "message": "Ingen velkendte tegnkombinationer"
+   },
+   "passwordPenaltyReason2": {
+      "description": "",
+      "message": "Mindst 8 tegn"
+   },
+   "passwordPenaltyReason3": {
+      "description": "",
+      "message": "Skiftende cifre, specialtegn, store og små bogstaver"
+   },
+   "passwordStrength": {
+      "description": "",
+      "message": "Adgangskodens styrke:"
+   },
+   "password_length": {
+      "description": "",
+      "message": "Adgangskodelængde:"
+   },
+   "password_linking_is_supported_in_full_version": {
+      "description": "",
+      "message": "Tilgængelig om skrivebordsprogram"
+   },
+   "password_param_digits": {
+      "description": "",
+      "message": "Tal (0-9)"
+   },
+   "password_param_lowercase_letters": {
+      "description": "",
+      "message": "Små bogstaver"
+   },
+   "password_param_uppercase_letters": {
+      "description": "",
+      "message": "Store bogstaver"
+   },
+   "password_params": {
+      "description": "",
+      "message": "Parametre for adgangskode"
+   },
+   "pleaseWaitMessage": {
+      "description": "",
+      "message": "Vent venligst..."
+   },
+   "privateModeMessage": {
+      "description": "",
+      "message": "Udvidelsesmenuen til Kaspersky Password Manager vises ikke i tilstanden Privat browsing"
+   },
+   "product_lang_code": {
+      "description": "Sprogkode-mapping for sprogt brugt i øjeblikket",
+      "message": "da"
+   },
+   "recent": {
+      "description": "",
+      "message": "Seneste"
+   },
+   "recentWebsitesNotFound": {
+      "description": "",
+      "message": "Websteder, du åbner fra Kaspersky&nbsp;Password&nbsp;Manager vises her"
+   },
+   "refreshPage": {
+      "description": "",
+      "message": "Genindlæs"
+   },
+   "searchFieldPlaceholder": {
+      "description": "",
+      "message": "Søg i Kaspersky Password Manager"
+   },
+   "searchResult": {
+      "description": "",
+      "message": "Søgeresultater"
+   },
+   "securePasswordContains": {
+      "description": "",
+      "message": "En stærk adgangskode indeholder:"
+   },
+   "showInProduct": {
+      "description": "",
+      "message": "Vis i Kaspersky&nbsp;Password&nbsp;Manager"
+   },
+   "showPasswordTooltip": {
+      "description": "",
+      "message": "Vis adgangskode"
+   },
+   "sites": {
+      "description": "",
+      "message": "Websteder"
+   },
+   "strongPasswordStrength": {
+      "description": "",
+      "message": "Høj"
+   },
+   "toolbar_button_hint": {
+      "description": "værktøjstip til udvidelsesprogramknap",
+      "message": "Kaspersky Password Manager"
+   },
+   "unlock": {
+      "description": "",
+      "message": "Lås op"
+   },
+   "updatePageMessage": {
+      "description": "",
+      "message": "Genindlæs denne side for at bruge Kaspersky&nbsp;Password&nbsp;Manager"
+   },
+   "updateRequired": {
+      "description": "",
+      "message": "Opdater Kaspersky&nbsp;Password&nbsp;Manager på denne computer"
+   },
+   "websitesCount": {
+      "description": "Dette vises lige nedenunder et mappenavn og er efterfulgt af det antal websteder, der er føjet til mappen. Eksempel: 1 websted",
+      "message": "websted"
+   },
+   "websitesCount__plural_1": {
+      "description": "Dette vises lige nedenunder et mappenavn og er efterfulgt af det antal websteder, der er føjet til mappen (flertalsform). Eksempel: 23 websteder",
+      "message": "Websteder"
+   },
+   "websitesCount__plural_2": {
+      "description": "Dette vises lige nedenunder et mappenavn og er efterfulgt af antallet af websteder, der er føjet til mappen (flertalsform nr. 2). Eksempel: 100 websteder",
+      "message": "Websteder"
+   },
+   "websitesNotFound": {
+      "description": "",
+      "message": "Du har endnu ikke tilføjet websteder"
+   },
+   "wrongPassword": {
+      "description": "",
+      "message": "Hovedadgangskoden er forkert"
+   }
+}

@@ -1,0 +1,6 @@
+jQuery 2.2.4 01.02.2019
+
+Source:
+https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
+https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css
+https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js

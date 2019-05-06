@@ -1,0 +1,410 @@
+{
+   "additionalTitle": {
+      "description": "",
+      "message": "附加"
+   },
+   "addresses": {
+      "description": "",
+      "message": "地址"
+   },
+   "addressesNotFound": {
+      "description": "",
+      "message": "您还未添加任何地址"
+   },
+   "availableLogins": {
+      "description": "",
+      "message": "可用账户"
+   },
+   "bankCardPutInUnsupported": {
+      "description": "",
+      "message": "Kaspersky Password Manager 不在此网站上填充银行卡详情"
+   },
+   "bankCards": {
+      "description": "",
+      "message": "银行卡"
+   },
+   "bankCardsNotFound": {
+      "description": "",
+      "message": "您还未添加任何银行卡"
+   },
+   "capsLockOn": {
+      "description": "",
+      "message": "Caps Lock 已启用"
+   },
+   "change_password_params": {
+      "description": "",
+      "message": "密码参数"
+   },
+   "clear": {
+      "description": "",
+      "message": "清除"
+   },
+   "clearList": {
+      "description": "",
+      "message": "清除全部"
+   },
+   "closeFolder": {
+      "description": "",
+      "message": "关闭文件夹"
+   },
+   "copyLogin": {
+      "description": "",
+      "message": "复制登录名"
+   },
+   "copyPassword": {
+      "description": "",
+      "message": "复制密码"
+   },
+   "copy_password": {
+      "description": "",
+      "message": "复制"
+   },
+   "createButton": {
+      "description": "",
+      "message": "生成"
+   },
+   "createPassword": {
+      "description": "",
+      "message": "生成密码"
+   },
+   "createSecurePassword": {
+      "description": "",
+      "message": "生成强密码"
+   },
+   "do_not_show_anymore": {
+      "description": "",
+      "message": "不再显示"
+   },
+   "downloadAndInstall": {
+      "description": "",
+      "message": "下载和安装"
+   },
+   "download_for_windows": {
+      "description": "",
+      "message": "下载"
+   },
+   "emptyComment": {
+      "description": "",
+      "message": "无注释"
+   },
+   "emptyResentAccounts": {
+      "description": "",
+      "message": "您从 Kaspersky Password Manager 打开的网站将出现在此"
+   },
+   "enterMasterPassword": {
+      "description": "",
+      "message": "主密码"
+   },
+   "eula": {
+      "description": "",
+      "message": "授权许可协议"
+   },
+   "extension_author": {
+      "description": "required string",
+      "message": "Kaspersky Lab"
+   },
+   "extension_description": {
+      "description": "required string",
+      "message": "安全自动填充您的登录名和密码、银行卡详情和您访问网站的地址。"
+   },
+   "extension_do_not_work_on_service_pages": {
+      "description": "",
+      "message": "扩展程序在开始页面和带有浏览器设置的页面不可用。"
+   },
+   "extension_do_not_work_on_service_pages__short": {
+      "description": "",
+      "message": "当前页上不可用"
+   },
+   "extension_name": {
+      "description": "required string",
+      "message": "Kaspersky Password Manager"
+   },
+   "extension_name_beta": {
+      "description": "required string. Used as extension name for Beta release",
+      "message": "Kaspersky Password Manager Beta"
+   },
+   "extension_name_light": {
+      "description": "",
+      "message": "Kaspersky Password Manager"
+   },
+   "favorites": {
+      "description": "",
+      "message": "收藏"
+   },
+   "fillForm": {
+      "description": "",
+      "message": "填充字段"
+   },
+   "fillingAddressesDisabled": {
+      "description": "",
+      "message": "应用程序设置中的地址填充功能已禁用"
+   },
+   "fillingBankCardsDisabled": {
+      "description": "",
+      "message": "应用程序设置中的银行卡详情填充功能已禁用"
+   },
+   "fillingLoginsDisabled": {
+      "description": "",
+      "message": "应用程序设置中的登录名和密码填充功能已禁用"
+   },
+   "forgotMasterPassword": {
+      "description": "",
+      "message": "忘记您的主密码?"
+   },
+   "generatePassword": {
+      "description": "",
+      "message": "生成"
+   },
+   "generate_password_full": {
+      "description": "",
+      "message": "创建"
+   },
+   "generated_password": {
+      "description": "",
+      "message": "新密码"
+   },
+   "goToWebsite": {
+      "description": "",
+      "message": "访问网站"
+   },
+   "hidePasswordTooltip": {
+      "description": "",
+      "message": "隐藏密码"
+   },
+   "hint_description": {
+      "description": "",
+      "message": "为您的账户创建强密码"
+   },
+   "how_it_works": {
+      "description": "",
+      "message": "它如何工作"
+   },
+   "illegal_password_config": {
+      "description": "",
+      "message": "选择至少一个字符组"
+   },
+   "installRequired": {
+      "description": "",
+      "message": "安装 Kaspersky Password Manager 到此计算机"
+   },
+   "install_product_for_autofill": {
+      "description": "",
+      "message": "安装应用程序到您的计算机以自动保存和自动填充密码。"
+   },
+   "learn_more": {
+      "description": "",
+      "message": "了解更多"
+   },
+   "leaveFeedback": {
+      "description": "",
+      "message": "留下反馈"
+   },
+   "leaveFeedbackRequest": {
+      "description": "",
+      "message": "我们期待您的建议。"
+   },
+   "legal_notices": {
+      "description": "",
+      "message": "第三方代码"
+   },
+   "light_mode_product_description": {
+      "description": "",
+      "message": "快速和安全地访问您的密码、卡、文件和来自任何设备的其他数据"
+   },
+   "link_to_account": {
+      "description": "",
+      "message": "保存密码"
+   },
+   "lockVault": {
+      "description": "",
+      "message": "锁定保管库"
+   },
+   "logInToYourAccount": {
+      "description": "",
+      "message": "访问网站"
+   },
+   "lowPasswordStrength": {
+      "description": "",
+      "message": "低"
+   },
+   "mediumPasswordStrength": {
+      "description": "",
+      "message": "中"
+   },
+   "noAddressForms": {
+      "description": "",
+      "message": "此页面无地址表格"
+   },
+   "noAddressesMessage": {
+      "description": "",
+      "message": "您还未添加任何地址"
+   },
+   "noBankCardForms": {
+      "description": "",
+      "message": "此页面没有银行卡表格"
+   },
+   "noBankCardsMessage": {
+      "description": "",
+      "message": "您还未添加任何银行卡"
+   },
+   "noLoginForms": {
+      "description": "",
+      "message": "此页面无登录名和密码字段"
+   },
+   "noLoginsMessage": {
+      "description": "",
+      "message": "您还没有为此网站添加任何账户"
+   },
+   "notFoundMessage": {
+      "description": "",
+      "message": "未找到结果"
+   },
+   "openButton": {
+      "description": "",
+      "message": "打开"
+   },
+   "openFolder": {
+      "description": "",
+      "message": "打开文件夹"
+   },
+   "openMoreOptions": {
+      "description": "",
+      "message": "更多…"
+   },
+   "openProduct": {
+      "description": "",
+      "message": "打开 Kaspersky Password Manager"
+   },
+   "passwordPenaltyReason0": {
+      "description": "",
+      "message": "无简单字符组合"
+   },
+   "passwordPenaltyReason1": {
+      "description": "",
+      "message": "无流行字符组合"
+   },
+   "passwordPenaltyReason2": {
+      "description": "",
+      "message": "至少 8 个字符"
+   },
+   "passwordPenaltyReason3": {
+      "description": "",
+      "message": "交替的数字、特殊字符、大小写字母"
+   },
+   "passwordStrength": {
+      "description": "",
+      "message": "密码强度:"
+   },
+   "password_length": {
+      "description": "",
+      "message": "密码长度"
+   },
+   "password_linking_is_supported_in_full_version": {
+      "description": "",
+      "message": "作为桌面应用程序可用"
+   },
+   "password_param_digits": {
+      "description": "",
+      "message": "数字"
+   },
+   "password_param_lowercase_letters": {
+      "description": "",
+      "message": "小写字母"
+   },
+   "password_param_uppercase_letters": {
+      "description": "",
+      "message": "大写字母"
+   },
+   "password_params": {
+      "description": "",
+      "message": "密码参数"
+   },
+   "pleaseWaitMessage": {
+      "description": "",
+      "message": "请等待…"
+   },
+   "privateModeMessage": {
+      "description": "",
+      "message": "Kaspersky Password Manager 扩展程序菜单在隐私浏览模式下不显示"
+   },
+   "product_lang_code": {
+      "description": "Language code mapping for currently used language",
+      "message": "zh-Hans"
+   },
+   "recent": {
+      "description": "",
+      "message": "最近"
+   },
+   "recentWebsitesNotFound": {
+      "description": "",
+      "message": "您从 Kaspersky Password Manager 打开的网站将出现在此"
+   },
+   "refreshPage": {
+      "description": "",
+      "message": "重新加载"
+   },
+   "searchFieldPlaceholder": {
+      "description": "",
+      "message": "在 Kaspersky Password Manager 中搜索"
+   },
+   "searchResult": {
+      "description": "",
+      "message": "搜索结果"
+   },
+   "securePasswordContains": {
+      "description": "",
+      "message": "强密码包含:"
+   },
+   "showInProduct": {
+      "description": "",
+      "message": "在 Kaspersky Password Manager 中显示"
+   },
+   "showPasswordTooltip": {
+      "description": "",
+      "message": "显示密码"
+   },
+   "sites": {
+      "description": "",
+      "message": "网站"
+   },
+   "strongPasswordStrength": {
+      "description": "",
+      "message": "高"
+   },
+   "toolbar_button_hint": {
+      "description": "extension button tooltip",
+      "message": "Kaspersky Password Manager"
+   },
+   "unlock": {
+      "description": "",
+      "message": "解锁"
+   },
+   "updatePageMessage": {
+      "description": "",
+      "message": "重新加载此页面以使用 Kaspersky Password Manager"
+   },
+   "updateRequired": {
+      "description": "",
+      "message": "在此计算机上更新 Kaspersky Password Manager"
+   },
+   "websitesCount": {
+      "description": "This is displayed right under a folder name and is followed by the number of websites added to the folder. Example: 1 website",
+      "message": "网站"
+   },
+   "websitesCount__plural_1": {
+      "description": "This is displayed right under a folder name and is followed by the number of websites added to the folder (Plural form). Example: 23 websites",
+      "message": "网站"
+   },
+   "websitesCount__plural_2": {
+      "description": "This is displayed right under a folder name and is followed by the number of websites added to the folder (Plural form #2). Example: 100 websites",
+      "message": "网站"
+   },
+   "websitesNotFound": {
+      "description": "",
+      "message": "您还未添加任何网站"
+   },
+   "wrongPassword": {
+      "description": "",
+      "message": "错误的主密码"
+   }
+}

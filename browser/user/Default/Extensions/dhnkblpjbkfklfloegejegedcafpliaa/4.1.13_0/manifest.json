@@ -1,0 +1,50 @@
+{
+   "author": "__MSG_extension_author__",
+   "background": {
+      "scripts": [ "./background/index.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "./icons/kpm_locked_toolbar_icon19.png",
+         "20": "./icons/kpm_locked_toolbar_icon20.png",
+         "38": "./icons/kpm_locked_toolbar_icon38.png",
+         "40": "./icons/kpm_locked_toolbar_icon40.png"
+      },
+      "default_popup": "popover/index.html",
+      "default_title": "__MSG_toolbar_button_hint__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "./content_script/index.css" ],
+      "js": [ "./content_script/index.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "./help_enchance/index.js" ],
+      "match_about_blank": true,
+      "matches": [ "https://stage.help.kaspersky.com/KPM/*", "https://help.kaspersky.com/KPM/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-eval'; img-src 'self' data:",
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "./icons/icon-128.png",
+      "16": "./icons/icon-16.png",
+      "256": "./icons/icon-128@2x.png",
+      "32": "./icons/icon-32.png",
+      "48": "./icons/icon-48.png",
+      "64": "./icons/icon-32@2x.png",
+      "96": "./icons/icon-48@2x.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1iYRltpmAS6VDYbKHvo+GXq7UkWhHt/C72lheFFuLBLmjRafKC2xQzO0GXyGmQcKB5n99Wl2x00DUW3synLluA7dE9QMJ3iUJ/0rmzX9aT9+4VFoxbd0JidEj5HVYyNJWrSW/f3tWBjkTB3fRPTBIbsbeKIVkZc6+/XzCfS8v0osd+wNcsxLAbGZ1Qvd0vBUHObd3ODa5izIrrgyo0+uyyHvoPBRmOIn0NgQ1AB2YC6SRjNwJ7e+vgyECnBTJ4pdA5y5ml7tHA7PYFPzoQkKFdsyjeWvzs5Eafk84O+lfUPUCnAk3ogC46j/Sqmkz9+2IV7D98IcjreXsA0VYgE2AwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extension_name__",
+   "permissions": [ "tabs", "nativeMessaging", "contextMenus", "webNavigation", "webRequest", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.13",
+   "web_accessible_resources": [ "images/*", "*.png" ]
+}

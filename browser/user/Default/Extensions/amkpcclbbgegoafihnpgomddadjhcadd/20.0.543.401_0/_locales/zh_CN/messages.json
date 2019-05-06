@@ -1,0 +1,14 @@
+{
+   "ExtensionDescription": {
+      "description": "",
+      "message": "使用卡巴斯基实验室的扩展功能对您的互联网的保护。"
+   },
+   "ExtensionName": {
+      "description": "",
+      "message": "卡巴斯基保护"
+   },
+   "ToolbarButtonText": {
+      "description": "",
+      "message": "卡巴斯基保护"
+   }
+}

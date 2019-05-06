@@ -1,0 +1,18 @@
+1. Make PKCS12
+openssl pkcs12 -export -in DOMAIN.cer -inkey DOMAIN-PRIVATE-KEY.key -out keys.p12 -name tomcat -CAfile chain.crt -caname root -chain
+2. Import to JKS (Variante 1)
+keytool -importkeystore -deststorepass PASSWORT -destkeystore keys.jks -srckeystore keys.p12 -srcstoretype PKCS12 -srcstorepass PASSWORT
+2. Import to JKS (Variante 2, enter passwords manually)
+keytool -importkeystore -destkeystore keys.jks -srckeystore keys.p12 -srcstoretype PKCS12
+
+openssl s_client -showcerts -connect DOMAIN:443
+
+chain.crt must not contain \r but only \n
+chain.crt contains:
+
+-----BEGIN CERTIFICATE-----
+root-certificate
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+intermediate-certificate
+-----END CERTIFICATE-----EOF

@@ -1,0 +1,4 @@
+Chromium Windows 32bit Portable 22.02.2019
+
+Source:
+https://chromium.woolyss.com/f/chrlauncher-win32-stable-codecs-sync.zip

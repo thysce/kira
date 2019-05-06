@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Context
+    path="/boot">
+
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>WEB-INF/context.xml</WatchedResource>
+
+</Context>

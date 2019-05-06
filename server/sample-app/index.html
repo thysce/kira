@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Sample Application</title>
+    <meta name="Access-Control-Allow-Origin" content="http://localhost:8080/*"/>
+    <meta name="Access-Control-Allow-Origin" content="http://localhost/*"/>
+    <link rel="shortcut icon" href="favicon.jpeg" type="image/jpeg"/>
+    <script src="/hosted/jquery.min.js"></script>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        * {
+            font-family: Verdana, sans-serif;
+        }
+
+        #title {
+            position: absolute;
+            width: 100%;
+            left: 0%;
+            top: calc(50% - .5em);
+			text-align: center;
+			font-size: 2em;
+        }
+		
+		#subtitle {
+			position: absolute;
+            width: 100%;
+            left: 0%;
+            top: calc(50% + .5em);
+			color: #AAAAAA;
+			text-align: center;
+			font-size: 2em;
+		}
+		
+		#legal {
+			position: absolute;
+			width: 60%;
+			left: 20%;
+			bottom: 1em;
+			text-align: center;
+		}
+		
+		#shutdown {
+			position: absolute;
+			right: 1em;
+			top: 1em;
+		}
+    </style>
+</head>
+<body>
+
+<a id="shutdown" href="javascript:shutdown()">Shutdown Kira</a>
+
+<div id="title">
+	Welcome to Kira.
+</div>
+<div id="subtitle">
+	A new era of Application Development
+</div>
+
+<div id="legal">
+	<hr/>
+	Kira is a framework by Trense Online Systems.
+</div>
+
+<script>
+
+	var shutdown = function() {
+		$.post("/boot/shutdown", {}, function() {
+			$("#title").text("Shutting down Kira...");
+			$("#subtitle").hide();
+			$("#shutdown").hide();
+			
+			var checkDown = function() {
+				$.post("/boot/online", {}, function(){/* wait till this request fails, because then Kira is offline */})
+					.fail(function(){
+						$("#title").text("Kira is offline.");
+						$("#subtitle").show();
+						$("#subtitle").text("You may close this window now.");
+				});
+			};
+			
+			setInterval(checkDown, 250);
+		});
+	};
+
+</script>
+
+</body>
+</html>

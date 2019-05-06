@@ -1,0 +1,410 @@
+{
+   "additionalTitle": {
+      "description": "",
+      "message": "Extras"
+   },
+   "addresses": {
+      "description": "",
+      "message": "Adresses"
+   },
+   "addressesNotFound": {
+      "description": "",
+      "message": "Vous n'avez pas encore ajouté d'adresse"
+   },
+   "availableLogins": {
+      "description": "",
+      "message": "Comptes disponibles"
+   },
+   "bankCardPutInUnsupported": {
+      "description": "",
+      "message": "Kaspersky Password Manager ne saisit pas les détails de la carte bancaire sur ce site"
+   },
+   "bankCards": {
+      "description": "",
+      "message": "Cartes bancaires"
+   },
+   "bankCardsNotFound": {
+      "description": "",
+      "message": "Vous n'avez pas encore ajouté de cartes bancaires"
+   },
+   "capsLockOn": {
+      "description": "",
+      "message": "Verrouillage majuscules activé"
+   },
+   "change_password_params": {
+      "description": "",
+      "message": "Paramètres du mot de passe"
+   },
+   "clear": {
+      "description": "",
+      "message": "Purger"
+   },
+   "clearList": {
+      "description": "",
+      "message": "Tout supprimer"
+   },
+   "closeFolder": {
+      "description": "",
+      "message": "Fermer le dossier"
+   },
+   "copyLogin": {
+      "description": "",
+      "message": "Copier l'identifiant"
+   },
+   "copyPassword": {
+      "description": "",
+      "message": "Copier le mot de passe"
+   },
+   "copy_password": {
+      "description": "",
+      "message": "Copier"
+   },
+   "createButton": {
+      "description": "",
+      "message": "Générer"
+   },
+   "createPassword": {
+      "description": "",
+      "message": "Créer un mot de passe"
+   },
+   "createSecurePassword": {
+      "description": "",
+      "message": "Créer un mot de passe fort"
+   },
+   "do_not_show_anymore": {
+      "description": "",
+      "message": "Ne plus afficher"
+   },
+   "downloadAndInstall": {
+      "description": "",
+      "message": "Télécharger et installer"
+   },
+   "download_for_windows": {
+      "description": "",
+      "message": "Télécharger"
+   },
+   "emptyComment": {
+      "description": "",
+      "message": "Pas de commentaire"
+   },
+   "emptyResentAccounts": {
+      "description": "",
+      "message": "Les sites Internet que vous avez ouverts depuis Kaspersky&nbsp;Password&nbsp;Manager apparaissent ici"
+   },
+   "enterMasterPassword": {
+      "description": "",
+      "message": "Mot de passe principal"
+   },
+   "eula": {
+      "description": "",
+      "message": "Contrat de licence"
+   },
+   "extension_author": {
+      "description": "chaîne requise",
+      "message": "Kaspersky Lab"
+   },
+   "extension_description": {
+      "description": "chaîne requise",
+      "message": "Saisissez automatiquement et en sécurité vos identifiants et mots de passe, vos adresses et les détails de votre carte bancaire sur les sites que vous consultez."
+   },
+   "extension_do_not_work_on_service_pages": {
+      "description": "",
+      "message": "L'extension n'est pas disponible sur la page d'accueil et les pages des paramètres du navigateur."
+   },
+   "extension_do_not_work_on_service_pages__short": {
+      "description": "",
+      "message": "Non disponible sur cette page"
+   },
+   "extension_name": {
+      "description": "chaîne requise",
+      "message": "Kaspersky Password Manager"
+   },
+   "extension_name_beta": {
+      "description": "chaîne requise. Utilisée comme un nom d'extension pour la version Bêta",
+      "message": "Kaspersky Password Manager Beta"
+   },
+   "extension_name_light": {
+      "description": "",
+      "message": "Kaspersky Password Manager"
+   },
+   "favorites": {
+      "description": "",
+      "message": "Favoris"
+   },
+   "fillForm": {
+      "description": "",
+      "message": "Remplir les champs"
+   },
+   "fillingAddressesDisabled": {
+      "description": "",
+      "message": "La saisie des adresses est désactivée dans les paramètres de l'application"
+   },
+   "fillingBankCardsDisabled": {
+      "description": "",
+      "message": "La saisie des détails de la carte bancaire est désactivée dans les paramètres de l'application"
+   },
+   "fillingLoginsDisabled": {
+      "description": "",
+      "message": "La saisie des identifiants et des mots de passe est désactivée dans les paramètres de l'application"
+   },
+   "forgotMasterPassword": {
+      "description": "",
+      "message": "Mot de passe principal oublié ?"
+   },
+   "generatePassword": {
+      "description": "",
+      "message": "Générer"
+   },
+   "generate_password_full": {
+      "description": "",
+      "message": "CREER"
+   },
+   "generated_password": {
+      "description": "",
+      "message": "Nouveau mot de passe "
+   },
+   "goToWebsite": {
+      "description": "",
+      "message": "Accéder au site Internet"
+   },
+   "hidePasswordTooltip": {
+      "description": "",
+      "message": "Masquer le mot de passe"
+   },
+   "hint_description": {
+      "description": "",
+      "message": "Créez un mot de passe fort pour votre compte"
+   },
+   "how_it_works": {
+      "description": "",
+      "message": "Comment ça marche"
+   },
+   "illegal_password_config": {
+      "description": "",
+      "message": "Sélectionnez au moins un groupe de caractères"
+   },
+   "installRequired": {
+      "description": "",
+      "message": "Installez Kaspersky&nbsp;Password&nbsp;Manager sur cet ordinateur"
+   },
+   "install_product_for_autofill": {
+      "description": "",
+      "message": "Installez l'application sur votre ordinateur pour enregistrer et saisir automatiquement vos mots de passe."
+   },
+   "learn_more": {
+      "description": "",
+      "message": "En savoir plus"
+   },
+   "leaveFeedback": {
+      "description": "",
+      "message": "Envoyer des commentaires"
+   },
+   "leaveFeedbackRequest": {
+      "description": "",
+      "message": "Votre opinion est importante."
+   },
+   "legal_notices": {
+      "description": "",
+      "message": "Code tiers"
+   },
+   "light_mode_product_description": {
+      "description": "",
+      "message": "Accès rapide et sécurisé à vos mots de passe, cartes, documents et autres données depuis n'importe quel appareil."
+   },
+   "link_to_account": {
+      "description": "",
+      "message": "Enregistrer le mot de passe"
+   },
+   "lockVault": {
+      "description": "",
+      "message": "Verrouiller le coffre-fort numérique"
+   },
+   "logInToYourAccount": {
+      "description": "",
+      "message": "Accéder au site Internet"
+   },
+   "lowPasswordStrength": {
+      "description": "",
+      "message": "Faible"
+   },
+   "mediumPasswordStrength": {
+      "description": "",
+      "message": "Moyen"
+   },
+   "noAddressForms": {
+      "description": "",
+      "message": "Aucun formulaire d'adresse sur cette page"
+   },
+   "noAddressesMessage": {
+      "description": "",
+      "message": "Vous n'avez pas encore ajouté d'adresse"
+   },
+   "noBankCardForms": {
+      "description": "",
+      "message": "Aucun formulaire de carte bancaire sur cette page"
+   },
+   "noBankCardsMessage": {
+      "description": "",
+      "message": "Vous n'avez pas encore ajouté de cartes bancaires"
+   },
+   "noLoginForms": {
+      "description": "",
+      "message": "Aucun champ de nom d'utilisateur ni de mot de passe sur cette page"
+   },
+   "noLoginsMessage": {
+      "description": "",
+      "message": "Vous n'avez pas encore ajouté de comptes pour ce site Internet"
+   },
+   "notFoundMessage": {
+      "description": "",
+      "message": "Aucun résultat"
+   },
+   "openButton": {
+      "description": "",
+      "message": "Ouvrir"
+   },
+   "openFolder": {
+      "description": "",
+      "message": "Ouvrir le dossier"
+   },
+   "openMoreOptions": {
+      "description": "",
+      "message": "Plus..."
+   },
+   "openProduct": {
+      "description": "",
+      "message": "Ouvrir Kaspersky&nbsp;Password&nbsp;Manager"
+   },
+   "passwordPenaltyReason0": {
+      "description": "",
+      "message": "Ne possède pas d'associations simples caractères"
+   },
+   "passwordPenaltyReason1": {
+      "description": "",
+      "message": "Pas de combinaisons de caractères répandues"
+   },
+   "passwordPenaltyReason2": {
+      "description": "",
+      "message": "Au moins 8 caractères"
+   },
+   "passwordPenaltyReason3": {
+      "description": "",
+      "message": "Alternance de chiffres, de caractères spéciaux, de minuscules et de majuscules"
+   },
+   "passwordStrength": {
+      "description": "",
+      "message": "Niveau de sécurité du mot de passe :"
+   },
+   "password_length": {
+      "description": "",
+      "message": "Longueur du mot de passe "
+   },
+   "password_linking_is_supported_in_full_version": {
+      "description": "",
+      "message": "Disponible en tant qu'application pour ordinateur de bureau"
+   },
+   "password_param_digits": {
+      "description": "",
+      "message": "Chiffres"
+   },
+   "password_param_lowercase_letters": {
+      "description": "",
+      "message": "Lettres minuscules"
+   },
+   "password_param_uppercase_letters": {
+      "description": "",
+      "message": "Lettres majuscules"
+   },
+   "password_params": {
+      "description": "",
+      "message": "Paramètres du mot de passe"
+   },
+   "pleaseWaitMessage": {
+      "description": "",
+      "message": "Veuillez patienter…"
+   },
+   "privateModeMessage": {
+      "description": "",
+      "message": "Le menu de l'extension Kaspersky Password Manager n'est pas affiché en mode de navigation sécurisée"
+   },
+   "product_lang_code": {
+      "description": "Mappage de code de langue pour la langue employée",
+      "message": "fr"
+   },
+   "recent": {
+      "description": "",
+      "message": "Récents"
+   },
+   "recentWebsitesNotFound": {
+      "description": "",
+      "message": "Les sites Internet que vous avez ouverts depuis Kaspersky&nbsp;Password&nbsp;Manager apparaissent ici"
+   },
+   "refreshPage": {
+      "description": "",
+      "message": "Actualiser"
+   },
+   "searchFieldPlaceholder": {
+      "description": "",
+      "message": "Chercher dans Kaspersky Password Manager"
+   },
+   "searchResult": {
+      "description": "",
+      "message": "Résultats de la recherche"
+   },
+   "securePasswordContains": {
+      "description": "",
+      "message": "Un mot de passe fort contient :"
+   },
+   "showInProduct": {
+      "description": "",
+      "message": "Afficher dans Kaspersky&nbsp;Password&nbsp;Manager"
+   },
+   "showPasswordTooltip": {
+      "description": "",
+      "message": "Afficher le mot de passe"
+   },
+   "sites": {
+      "description": "",
+      "message": "Sites Internet"
+   },
+   "strongPasswordStrength": {
+      "description": "",
+      "message": "Haute"
+   },
+   "toolbar_button_hint": {
+      "description": "astuce du bouton d'extension",
+      "message": "Kaspersky Password Manager"
+   },
+   "unlock": {
+      "description": "",
+      "message": "Déverrouiller"
+   },
+   "updatePageMessage": {
+      "description": "",
+      "message": "Actualisez cette page pour utiliser Kaspersky&nbsp;Password&nbsp;Manager"
+   },
+   "updateRequired": {
+      "description": "",
+      "message": "Mettre Kaspersky&nbsp;Password&nbsp;Manager à jour sur cet ordinateur"
+   },
+   "websitesCount": {
+      "description": "Ceci apparaît juste en-dessous d'un nom de dossier et est suivi de la quantité de sites Internet ajoutés au dossier. Par exemple : 1 site Internet",
+      "message": "site Internet"
+   },
+   "websitesCount__plural_1": {
+      "description": "Ceci apparaît juste en-dessous d'un nom de dossier et est suivi de la quantité de sites Internet ajoutés au dossier (plurier). Par exemple : 23 sites Internet",
+      "message": "sites Internet"
+   },
+   "websitesCount__plural_2": {
+      "description": "Ceci apparaît juste en-dessous d'un nom de dossier et est suivi de la quantité de sites Internet ajoutés au dossier (pluriel version 2). Par exemple : 100 sites Internet",
+      "message": "sites Internet"
+   },
+   "websitesNotFound": {
+      "description": "",
+      "message": "Vous n'avez pas encore ajouté de sites Internet"
+   },
+   "wrongPassword": {
+      "description": "",
+      "message": "Mot de passe principal incorrect."
+   }
+}

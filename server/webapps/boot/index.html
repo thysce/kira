@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Laden...</title>
+    <meta name="Access-Control-Allow-Origin" content="http://localhost:8080/*"/>
+    <meta name="Access-Control-Allow-Origin" content="http://localhost/*"/>
+    <link rel="shortcut icon" href="favicon.jpeg" type="image/jpeg"/>
+	<script src="/hosted/jquery.min.js"></script>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        * {
+            font-family: Verdana, sans-serif;
+        }
+
+        #loading {
+            position: absolute;
+            width: 30%;
+            left: 35%;
+            top: calc(50% + 5em);
+        }
+
+        #loading-progress {
+            background-color: #F4A426;
+            transition-timing-function: linear;
+            height: .3em;
+            border-radius: .2em;
+        <!-- transition-duration set by js -->
+        }
+
+        #loading-full {
+            background-color: #DDDDDD;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            height: .3em;
+            border-radius: .2em;
+            z-index: -1;
+        }
+
+		#loading-text {
+			position: absolute;
+            width: 80%;
+            left: 10%;
+            top: calc(50% + 3em );
+			text-align: center;
+		}
+
+		#colors {
+			position: absolute;
+            width: 100%;
+			height: 100%;
+            left: 0;
+            top: 0;
+			z-index: -1;
+			text-align: center;
+			background-color: white;
+		}
+		
+        #logo {
+            position: absolute;
+            bottom: calc(50% - 2em);
+            left: 30%;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+
+<img id="logo" src="trenseOnline.png" alt="Trense Online Systems Logo"/>
+<div id="loading">
+    <div id="loading-full"></div>
+    <div id="loading-progress"></div>
+</div>
+<div id="loading-text">
+	Starting...
+</div>
+
+<canvas id="colors" width="1500" height="1500" style="background-blend-mode: lighten;"/>
+
+<script>
+    var progress = 0;
+    var domain = location.protocol + '//' + location.hostname + ( location.port ? ':' + location.port : '' );
+	
+    var test = function() {
+        if ( progress < 100 ) {
+            progress++;
+        }
+        $( "#loading-progress" ).css( "width", progress + "%" );
+        $.getJSON( domain + "/isOnline", {}, function() {
+            location.href = domain + "/";
+        } );
+    };
+
+    var interval = 250;
+    setInterval( test, interval );
+    $( "#loading" ).css( "transition-duration", interval + "ms" );
+	$("#loading").hide();
+	
+	$(function() {
+		$.get(domain + "/static/appname.txt", {}, function(result) {
+			$("#loading-text").text("Kira is booting " + result + "...");
+		});
+	});
+</script>
+
+<script>
+	
+	function scaleToInterval(i, offset, length, origOffset, origLength) {
+		i -= origOffset * 1.0;
+		i /= origLength;
+		i *= length;
+		i += offset;
+		return parseInt(i, 10);
+	}
+	
+	function drawCurve(ctx, time, w, h, max, offsetY) {
+		var lower = -Math.PI * 10;
+		var upper = Math.PI * 10;
+		var span = upper - lower;
+		var step = 0.01;
+		
+		ctx.beginPath();
+		ctx.moveTo(0, h/2 + offsetY);
+		
+		time = scaleToInterval(time, 0, Math.PI * 2 * 5, 0, 1000);
+		
+		for(var x = lower; x < upper; x += step) {
+			var y = Math.sin((x + time) / (span / 2));
+			y *= Math.cos(x / span * 3);
+			y *= Math.sin((x + time / 3) / span * 10);
+			y *= .90;
+			y *= max;
+			
+			ctx.lineTo(
+				scaleToInterval(x, 0, w, lower, span),
+				scaleToInterval(y, 0, -h, -1, 2) + h + offsetY
+			);
+		}
+		
+		ctx.moveTo(0, h/2  + offsetY);
+		ctx.closePath();
+		ctx.stroke();
+	}
+	
+	function computeFadingColor(time, offset, timeIntervalRed, timeIntervalGreen, timeIntervalBlue) {
+		var r = (time + offset) / timeIntervalRed;
+		r %= timeIntervalRed;
+		r *= Math.PI * 2;
+		r = Math.sin(r);
+		r = scaleToInterval(r, 0, 0xFF, -1, 2);
+		
+		var g = (time + offset) / timeIntervalGreen;
+		g %= timeIntervalGreen;
+		g *= Math.PI * 2;
+		g = Math.sin(g);
+		g = scaleToInterval(g, 0, 0xFF, -1, 2);
+		
+		var b = (time + offset) / timeIntervalBlue;
+		b %= timeIntervalBlue;
+		b *= Math.PI * 2;
+		b = Math.sin(r);
+		b = scaleToInterval(b, 0, 0xFF, -1, 2);
+		
+		var color = (r << 16) | (g << 8) | b;
+		
+		color &= 0xFF70FF;
+		
+		return color;
+	}
+	
+	function loop(ctx, time, w, h, max, offsetY) {
+		
+		ctx.fillStyle = "#FFFFFF20";
+		ctx.fillRect(0,0,w,h);
+		ctx.lineWidth = w / 250;
+		
+		var offset = 0;
+		var color = computeFadingColor(time, offset, 5000, 3000, 2500);
+		color = "#" + color.toString(16).padStart(6, 0) + "CC";
+		ctx.strokeStyle = color;
+		drawCurve(ctx, time + offset, w, h, max, offsetY);
+		
+		offset = 5000;
+		color = computeFadingColor(time, offset, 2000, 6000, 5000);
+		color = "#" + color.toString(16).padStart(6, 0) + "CC";
+		ctx.strokeStyle = color;
+		drawCurve(ctx, time + offset, w, h, max, offsetY);
+		
+		offset = 2000;
+		color = computeFadingColor(time, offset, 4000, 4000, 5000);
+		color = "#" + color.toString(16).padStart(6, 0) + "CC";
+		ctx.strokeStyle = color;
+		drawCurve(ctx, time + offset, w, h, max, offsetY);
+		
+		offset = 3000;
+		color = computeFadingColor(time, offset, 1000, 4500, 2000);
+		color = "#" + color.toString(16).padStart(6, 0) + "CC";
+		ctx.strokeStyle = color;
+		drawCurve(ctx, time + offset, w, h, max, offsetY);
+	}
+	
+	$(function(){
+		var time = 0;
+		var interval = 1000 / 60;
+
+		var canvas = $("#colors");
+		canvas.css('background-color', "#FFFFFF");
+		canvas = canvas[0];
+		var ctx = canvas.getContext("2d");
+		var TARGET_MAX = .15;
+		var TARGET_MAX_APPROACH_SPEED = 5;
+		var MOUSE_DIMMER = 500;
+		var max = TARGET_MAX;
+		var offsetY = 450;
+			
+		setInterval(function() {
+			loop(ctx, time, canvas.width, canvas.height, max, offsetY);
+			
+			time += interval;
+		}, interval);
+		
+		var lastX = 0, lastY = 0, impulse = 0;
+
+		$(document.body).mousemove(function(event) {
+			impulse = Math.sqrt(Math.pow(event.clientX - lastX, 2) + Math.pow(event.clientY - lastY, 2)) / MOUSE_DIMMER;			
+			lastX = event.clientX;
+			lastY = event.clientY;
+		});
+		setInterval(function() {
+			max += (TARGET_MAX - max) / TARGET_MAX_APPROACH_SPEED;
+			max += impulse;
+			impulse = 0;
+		}, 100);
+		
+	});
+
+</script>
+
+</body>
+</html>
