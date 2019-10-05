@@ -92,7 +92,7 @@
             progress++;
         }
         $( "#loading-progress" ).css( "width", progress + "%" );
-        $.getJSON( domain + "/isOnline", {}, function() {
+        $.get( domain + "/", {}, function() {
             location.href = domain + "/";
         } );
     };
