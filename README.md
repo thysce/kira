@@ -9,13 +9,14 @@ The shipped components are published under their respective licence that must be
 Just clone the entire repository and copy it with your app to the desired installation location.
 
 ## usage
-1 write your web application
-2 build a WAR archive and name it "app.war"
-3 copy and overwrite your war to ./kira-install-path/server/app.war
-4 start the kira application by executing ./kira-install-path/Kira.exe or Kira.bat
+- 1 write your web application
+- 2 build a WAR archive and name it "app.war"
+- 3 copy and overwrite your war to ./kira-install-path/server/app.war
+- 4 start the kira application by executing ./kira-install-path/Kira.exe or Kira.bat
 
 ## hints
 - To shutdown the kira server from your application, just trigger POST http://localhost:KIRA_PORT/boot/shutdown
+- you may wnat to shutdown kira on beforeunload
 - To check whether your kira instance (the framework, not your app) is running, GET http://localhost:KIRA_PORT/boot/online
 - The default port your instance will run on is 80.
 - There are instructions on how to use a TLS certificate with kira unter ./kira-install-path/server/conf/tls. For that you may want to use (or modify) conf/server-tls.xml. To activate that configuration, drop the server.xml and rename server-tls.xml to server.xml.
